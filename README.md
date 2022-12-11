@@ -20,11 +20,11 @@ Here is a boxed ordered list:
 
 Link: [Google](http://www.google.com)
 
-Code: 'markdown.map(&:to_s)'
+Code: `markdown.map(&:to_s)`
 
 Code again:
-'''
+```
 markdown.each do |mark|
   mark + mark
 end
-'''
+```
