@@ -28,3 +28,6 @@ markdown.each do |mark|
   mark + mark
 end
 ```
+
+Image:
+![Markdown](./images/markdown.jpeg)
