@@ -17,3 +17,14 @@ Here is an unordered list:
 Here is a boxed ordered list:
 > 1. First
 > 2. Second
+
+Link: [Google](http://www.google.com)
+
+Code: 'markdown.map(&:to_s)'
+
+Code again:
+'''
+markdown.each do |mark|
+  mark + mark
+end
+'''
